@@ -9,8 +9,11 @@ int main(void){
      printf ("What is y?: ", &y);
      scanf ("%dWhat is Y?: ", &y);
 
+     int sum = x + y;
+     printf("The Sum is: ", sum);
+
 if (x > y){
-        printf("X is greater than Y\n" );
+        printf("\n X is greater than Y\n" );
 }
 else if (x < y){
 
